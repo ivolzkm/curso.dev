@@ -2,7 +2,7 @@
 export default function HomePage() {
   return (
     <div>
-      <h1>Ivo Ricardo Lozekam</h1>
+      <h1>Digui pai, qual é a situação?</h1>
     </div>
   );
 }
