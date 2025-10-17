@@ -1,23 +1,19 @@
 # curso.dev
 Repositório voltado para  aprendizado 
 
-
-# Organização dos arquivos
-
-📦root/
-├──📂pages/
-│   └──📄index.js
-├──📂models/
-│   ├──📄users.js
-│   ├──📄content.js
-│   └──📄password.js
-├──📂infra/
-│   ├──📄database.js
-│   ├──📂migrations/
-│   └──📂provisioning/
-│       ├──📂staging/
-│       └──📂production/
-└──📂tests/
-
-
+## Organização de pastas
+* **root/**
+    * **pages/**
+        * index.js
+    * **models/**
+        * users.js
+        * content.js
+        * password.js
+    * **infra/**
+        * database.js
+        * **migrations/**
+        * **provisioning/**
+            * **staging/**
+            * **production/**
+    * **tests/**
 
