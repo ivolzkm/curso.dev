@@ -1,7 +1,7 @@
 # curso.dev
 Repositório voltado para  aprendizado 
 
-## Organização de pastas
+# Organização de pastas
 * **root/**
     * **pages/**
         * index.js
