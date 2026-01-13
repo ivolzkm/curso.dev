@@ -1,6 +1,6 @@
 ### 📂 Estrutura do Projeto
 
-``text
+```text
 .
 ├── pages/
 │   └── index.js          # Pontos de entrada da aplicação (Next.js)
