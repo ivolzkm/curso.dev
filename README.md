@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### 📂 Estrutura do Projeto
 
 ```text
@@ -17,3 +18,25 @@
 ├── tests/               # Testes automatizados (unitários/integração)
 ├── package.json         # Dependências e scripts do projeto
 └── .prettierrc          # Configurações de formatação de código
+=======
+# curso.dev
+
+Repositório voltado para aprendizado
+
+### Organização de pastas
+
+- **root/**
+  - **pages/**
+    - index.js
+  - **models/**
+    - users.js
+    - content.js
+    - password.js
+  - **infra/**
+    - database.js
+    - **migrations/**
+    - **provisioning/**
+      - **staging/**
+      - **production/**
+  - **tests/**
+>>>>>>> c6c307a (Implementa testes automatizados)

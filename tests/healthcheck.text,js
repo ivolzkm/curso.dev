@@ -1,0 +1,3 @@
+test('O Jest deve estar funcionando corretamente', () => {
+  expect(1 + 1).toBe(2);
+});
