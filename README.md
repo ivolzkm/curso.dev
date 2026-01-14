@@ -4,23 +4,23 @@
 ### 📂 Estrutura do Projeto
 
 .
-├── infra/              # Configurações de infraestrutura e banco de dados
-│   ├── database.js     # Conexão e lógica do banco de dados
-│   ├── migrations/     # Scripts de migração de schema
-│   └── provisioning/   # Scripts de provisionamento (Terraform, Ansible, etc)
+├── infra/
+│   ├── database.js
+│   ├── migrations/
+│   └── provisioning/
 │       ├── production/
 │       └── staging/
-├── models/             # Regras de negócio e representação de dados
+├── models/
 │   ├── content.js
 │   ├── password.js
 │   └── user.js
-├── pages/              # Interface do usuário (UI) e rotas do frontend
+├── pages/
 │   ├── index.js
 │   └── layout.js
-├── tests/              # Testes automatizados da aplicação
+├── tests/
 │   ├── calculadora.test.js
 │   └── healthcheck.test.js
-├── jest.config.js      # Configuração do framework de testes Jest
-├── jest.setup.js       # Scripts de inicialização dos testes
-├── package.json        # Manifest do projeto e dependências
-└── README.md           # Documentação principal
+├── jest.config.js
+├── jest.setup.js
+├── package.json
+└── README.md
