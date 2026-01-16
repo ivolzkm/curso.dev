@@ -1,4 +1,4 @@
-// app/page.js
+// app/index.js
 export default function HomePage() {
   return (
     <div
