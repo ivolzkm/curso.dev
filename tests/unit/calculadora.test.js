@@ -7,7 +7,7 @@ const {
   potencia,
   raizQuadrada,
   porcentagem,
-} = require('../models/calculadora');
+} = require('../../models/calculadora');
 
 // ===== TESTES DA FUNÇÃO SOMAR =====
 describe('Função somar', () => {
