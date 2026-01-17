@@ -13,8 +13,8 @@
 │   ├── content.js
 │   ├── password.js
 │   └── user.js
-├── pages/
-│   ├── index.js
+├── app/
+│   ├── page.js
 │   └── layout.js
 ├── tests/
 │   ├── calculadora.test.js
@@ -38,9 +38,9 @@ O projeto segue o padrão **MVC (Model-View-Controller)**, organizando o código
 
 ## 📁 Organização de Pastas
 
-### 🎨 **pages/**
+### 🎨 **app/**
 Contém as páginas e componentes da interface do usuário.
-- `index.js` - Página principal
+- `page.js` - Página principal
 - `layout.js` - Layout padrão da aplicação
 
 ### 🗃️ **models/**
