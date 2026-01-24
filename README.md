@@ -40,7 +40,7 @@ O projeto segue o padrão **MVC (Model-View-Controller)**, organizando o código
 
 ### 🎨 **app/**
 Contém as páginas e componentes da interface do usuário.
-- `app.js` - Página principal
+- `page.js` - Página principal
 - `layout.js` - Layout padrão da aplicação
 
 ### 🗃️ **models/**
