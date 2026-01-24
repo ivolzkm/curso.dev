@@ -1,7 +1,7 @@
 /**
  * @jest-environment node
- * Configuração para rodar este teste no ambiente Node.js ao invés do jsdom
  */
+// Configuração para rodar este teste no ambiente Node.js ao invés do jsdom
 
 // Importa a função GET do route handler da API
 import { GET } from '../../../app/api/v1/status/route';
