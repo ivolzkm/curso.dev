@@ -32,15 +32,15 @@ O projeto segue o padrão **MVC (Model-View-Controller)**, organizando o código
 | Camada | Pasta | Responsabilidade |
 |--------|-------|------------------|
 | **Model** | `models/` | Regras de negócio e lógica de dados |
-| **View** | `pages/` | Interface do usuário (o que ele vê) |
-| **Controller** | `pages/api/` (embutido) | Intermédio entre o clique do usuário e o dado |
+| **View** | `app/` | Interface do usuário (o que ele vê) |
+| **Controller** | `app/api/` (embutido) | Intermédio entre o clique do usuário e o dado |
 | **Infra** | `infra/` | Configurações técnicas (Banco de dados, Migrations, Servidor) |
 
 ## 📁 Organização de Pastas
 
 ### 🎨 **app/**
 Contém as páginas e componentes da interface do usuário.
-- `page.js` - Página principal
+- `app.js` - Página principal
 - `layout.js` - Layout padrão da aplicação
 
 ### 🗃️ **models/**
