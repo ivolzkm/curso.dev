@@ -1,3 +1,5 @@
+// ./app/v1/api/status/route.js
+
 export async function GET(request) {
   const statusData = {
     status: 'ok',
@@ -15,7 +17,7 @@ export async function GET(request) {
   });
 }
 
-// Opcional: adicionar outros métodos HTTP se necessário
+// Adicionar outros métodos HTTP se necessário
 export async function POST(request) {
   return Response.json({ message: 'Method not allowed' }, { status: 405 });
 }
