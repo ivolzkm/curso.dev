@@ -26,7 +26,7 @@ export async function GET(request) {
     },
   });
 }
-
+        
 // Adicionar outros métodos HTTP se necessário
 export async function POST(request) {
   return Response.json({ message: 'Method not allowed' }, { status: 405 });
