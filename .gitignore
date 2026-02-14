@@ -42,6 +42,7 @@ dist
 *.crt
 secrets/
 .secrets
+.env.development
 
 # ========================================
 # Docker - Volumes e Dados
