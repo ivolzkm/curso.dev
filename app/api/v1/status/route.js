@@ -1,6 +1,6 @@
 // ./app/v1/api/status/route.js
 
-import database from '. ./../../../infra/database.js';
+import database from 'infra/database.js';
 
 async function status(request, response) {
   const result = await database.query('SELECT 1+1 as sum;');
@@ -12,7 +12,7 @@ export default status;
 
 export async function GET(request) {
   const statusData = {
-    status: 'ok',
+    status: 'Tudo bem por aqui.',
     environment: process.env.NODE_ENV,
     timestamp: new Date().toISOString(),
     uptime: process.uptime(),
@@ -26,7 +26,7 @@ export async function GET(request) {
     },
   });
 }
-        
+
 // Adicionar outros métodos HTTP se necessário
 export async function POST(request) {
   return Response.json({ message: 'Method not allowed' }, { status: 405 });

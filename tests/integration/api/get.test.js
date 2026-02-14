@@ -26,7 +26,7 @@ test('GET to /api/v1/status should return 200', async () => {
   expect(body).toBeDefined();
 
   // Verifica se o campo 'status' tem o valor 'ok'
-  expect(body.status).toBe('ok');
+  expect(body.status).toBe('Tudo bem por aqui.');
 
   // Verifica se o campo 'environment' está presente na resposta
   expect(body.environment).toBeDefined();

@@ -11,10 +11,14 @@ async function query(queryObject) {
     database: process.env.POSTGRES_DB,
   });
   await client.connect();
-  await client.query(queryObject);
+  const result = await client.query(queryObject);
   await client.end();
   return result;
 }
+
+export default {
+  query: query,
+};
 
 // const res = await client.query('SELECT %$1::text as message', ['Hello World!'])
 // console.log(res.rows[0].message) //Hello World!
