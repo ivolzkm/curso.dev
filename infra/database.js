@@ -1,25 +1,23 @@
 //infra/database.js
 
-import { Client } from 'pg';
+import { Pool } from 'pg';
+
+const pool = new Pool({
+  host: process.env.POSTGRES_HOST,
+  port: process.env.POSTGRES_PORT,
+  user: process.env.POSTGRES_USER,
+  password: process.env.POSTGRES_PASSWORD,
+  database: process.env.POSTGRES_DB,
+  ssl:
+    process.env.NODE_ENV === 'production'
+      ? { rejectUnauthorized: false }
+      : false,
+});
 
 async function query(queryObject) {
-  const client = new Client({
-    host: process.env.POSTGRES_HOST,
-    port: process.env.POSTGRES_PORT,
-    user: process.env.POSTGRES_USER,
-    password: process.env.POSTGRES_PASSWORD,
-    database: process.env.POSTGRES_DB,
-  });
-  await client.connect();
-  const result = await client.query(queryObject);
-  await client.end();
+  const result = await pool.query(queryObject);
   return result;
 }
-
 export default {
   query: query,
 };
-
-// const res = await client.query('SELECT %$1::text as message', ['Hello World!'])
-// console.log(res.rows[0].message) //Hello World!
-// await client.end()
