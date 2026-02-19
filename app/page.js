@@ -43,45 +43,38 @@ export default function ConstructionPage() {
           {/* Barra de progresso animada */}
           <div className="w-full bg-white/20 rounded-full h-3 mb-8 overflow-hidden">
             <div className="h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full animate-pulse" 
-                 style={{ width: '47%' }}>
+                 style={{ width: '49%' }}>
             </div>
           </div>
 
           {/* Mensagem principal */}
           <div className="space-y-4 text-center">
             <p className="text-xl md:text-2xl text-purple-200 leading-relaxed">
-              O dono desta página ainda não sabe o que fazer com isso
+              Ainda não sei o que fazer nesse lugar
             </p>
             
             <p className="text-lg md:text-xl text-blue-200 leading-relaxed">
-              e está aprimorando seus conhecimentos.
+              Estou aprimorando meus conhecimentos.
             </p>
             
             <div className="pt-6 pb-4">
               <div className="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 text-slate-900 px-6 py-3 rounded-full font-bold text-lg shadow-lg">
-                Seja bem-vindo a este lugar! 🎉
+                Seja bem-vindo a este lugar vazio.
               </div>
             </div>
             
             <p className="text-md text-slate-300 italic">
-              Ainda não tem nada aqui... mas em breve terá algo incrível!
+              Ainda não tem nada aqui... mas em breve terá alguma coisa.
             </p>
           </div>
 
-          {/* Elementos decorativos */}
-          <div className="mt-8 flex justify-center gap-4 text-4xl">
-            <span className="animate-pulse">✨</span>
-            <span className="animate-bounce delay-100">🚀</span>
-            <span className="animate-pulse delay-200">💻</span>
-            <span className="animate-bounce delay-300">🎨</span>
-            <span className="animate-pulse delay-400">✨</span>
-          </div>
+       
         </div>
 
         {/* Rodapé */}
         <div className="text-center mt-6">
           <p className="text-sm text-purple-300">
-            Enquanto isso, aproveite para tomar um café ☕
+             café ☕
           </p>
         </div>
       </div>
