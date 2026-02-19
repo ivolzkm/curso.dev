@@ -15,8 +15,13 @@ const pool = new Pool({
 });
 
 async function query(queryObject) {
-  const result = await pool.query(queryObject);
-  return result;
+  try {
+    const result = await pool.query(queryObject);
+    return result;
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
 }
 export default {
   query: query,
