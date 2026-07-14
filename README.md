@@ -1,6 +1,7 @@
 # 📚 Documentação do Projeto
 
 ## 📂 Estrutura do Projeto
+
 ```
 .
 ├── infra/
@@ -29,28 +30,34 @@
 
 O projeto segue o padrão **MVC (Model-View-Controller)**, organizando o código de forma modular e mantendo as responsabilidades bem definidas:
 
-| Camada | Pasta | Responsabilidade |
-|--------|-------|------------------|
-| **Model** | `models/` | Regras de negócio e lógica de dados |
-| **View** | `app/` | Interface do usuário (o que ele vê) |
-| **Controller** | `app/api/` (embutido) | Intermédio entre o clique do usuário e o dado |
-| **Infra** | `infra/` | Configurações técnicas (Banco de dados, Migrations, Servidor) |
+| Camada         | Pasta                 | Responsabilidade                                              |
+| -------------- | --------------------- | ------------------------------------------------------------- |
+| **Model**      | `models/`             | Regras de negócio e lógica de dados                           |
+| **View**       | `app/`                | Interface do usuário (o que ele vê)                           |
+| **Controller** | `app/api/` (embutido) | Intermédio entre o clique do usuário e o dado                 |
+| **Infra**      | `infra/`              | Configurações técnicas (Banco de dados, Migrations, Servidor) |
 
 ## 📁 Organização de Pastas
 
 ### 🎨 **app/**
+
 Contém as páginas e componentes da interface do usuário.
+
 - `page.js` - Página principal
 - `layout.js` - Layout padrão da aplicação
 
 ### 🗃️ **models/**
+
 Gerencia a lógica de negócio e acesso aos dados.
+
 - `user.js` - Modelo de usuários
 - `content.js` - Modelo de conteúdo
 - `password.js` - Gerenciamento de senhas
 
 ### ⚙️ **infra/**
+
 Configurações de infraestrutura e banco de dados.
+
 - `database.js` - Configuração do banco de dados
 - **migrations/** - Scripts de migração do banco
 - **provisioning/** - Configurações de ambiente
@@ -58,7 +65,9 @@ Configurações de infraestrutura e banco de dados.
   - **production/** - Ambiente de produção
 
 ### 🧪 **tests/**
+
 Testes automatizados da aplicação.
+
 - `calculadora.test.js` - Testes da calculadora
 - `healthcheck.test.js` - Testes de verificação de saúde
 
