@@ -3,7 +3,7 @@
 import { NextResponse } from 'next/server';
 import database from 'infra/database.js';
 
-export async function GET(request) {
+export async function GET() {
   const updatedAt = new Date().toISOString();
 
   const databaseVersionResult = await database.query('SHOW server_version;');
