@@ -37,7 +37,7 @@ export default function ConstructionPage() {
         <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20">
           {/* Título principal */}
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 text-center">
-            Página em Construção{dots}
+            Oi Duda te amo{dots}
           </h1>
 
           {/* Barra de progresso animada */}
@@ -51,21 +51,21 @@ export default function ConstructionPage() {
           {/* Mensagem principal */}
           <div className="space-y-4 text-center">
             <p className="text-xl md:text-2xl text-purple-200 leading-relaxed">
-              Ainda não sei o que fazer nesse lugar
+              Se você me ama dá um sorrisinho
             </p>
 
             <p className="text-lg md:text-xl text-blue-200 leading-relaxed">
-              Estou aprimorando meus conhecimentos.
+              Toma esse site pra ti
             </p>
 
             <div className="pt-6 pb-4">
               <div className="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 text-slate-900 px-6 py-3 rounded-full font-bold text-lg shadow-lg">
-                Seja bem-vindo a este lugar vazio.
+                Seja bem-vindo a este pedaço de internet.
               </div>
             </div>
 
             <p className="text-md text-slate-300 italic">
-              Ainda não tem nada aqui... mas em breve terá alguma coisa.
+              Espero que tenha gostado.
             </p>
           </div>
         </div>
